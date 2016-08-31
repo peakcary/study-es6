@@ -1,24 +1,28 @@
 {
-  "name": "study-es6",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/peakcary/study-es6.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/peakcary/study-es6/issues"
-  },
-  "homepage": "https://github.com/peakcary/study-es6#readme",
-  "devDependencies": {
-    "babel-cli": "^6.14.0",
-    "babel-preset-es2015": "^6.14.0"
-  }
+    "name": "study-es6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/peakcary/study-es6.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/peakcary/study-es6/issues"
+    },
+    "homepage": "https://github.com/peakcary/study-es6#readme",
+    "devDependencies": {
+        "babel-cli": "^6.14.0",
+        "babel-core": "^6.14.0",
+        "babel-preset-es2015": "^6.14.0",
+        "babel-loader": "^6.0.1",
+        "node-libs-browser": "^0.5.3",
+        "webpack": "^1.12.2"
+    }
 }
